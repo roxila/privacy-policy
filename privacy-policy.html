@@ -25,10 +25,9 @@
           <h1>Política de Privacidade – DrumFlow</h1>
         </div>
         <div style="display:flex; gap:8px; align-items:center;">
-          <label style="font-size:13px; color:var(--muted);">Idioma</label>
           <div style="display:flex; gap:6px;">
-            <button id="btn-pt" aria-pressed="true" style="padding:6px 10px; border-radius:8px; border:1px solid rgba(0,0,0,0.06); background:transparent; cursor:pointer;">PT</button>
-            <button id="btn-en" aria-pressed="false" style="padding:6px 10px; border-radius:8px; border:1px solid rgba(0,0,0,0.06); background:transparent; cursor:pointer;">EN</button>
+            <button id="btn-pt" aria-pressed="true" aria-label="Português" style="width:28px;height:28px;padding:6px;border-radius:8px;border:1px solid rgba(0,0,0,0.06);background:transparent;cursor:pointer;"></button>
+            <button id="btn-en" aria-pressed="false" aria-label="English" style="width:28px;height:28px;padding:6px;border-radius:8px;border:1px solid rgba(0,0,0,0.06);background:transparent;cursor:pointer;"></button>
           </div>
         </div>
       </div>
@@ -254,7 +253,8 @@
       </div>
 
       <!-- Last-updated (moved from header) -->
-      <div style="margin-top:18px;">
+      <!-- last-updated intentionally hidden from users -->
+      <div style="display:none; margin-top:18px;">
         <p class="muted lang lang-pt" data-lang="pt" style="margin:0;">Última atualização: 26/11/2025</p>
         <p class="muted lang lang-en" data-lang="en" style="display:none; margin:0;">Last updated: 26/11/2025</p>
       </div>
